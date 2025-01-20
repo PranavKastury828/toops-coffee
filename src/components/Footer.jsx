@@ -98,7 +98,7 @@ const Footer = () => {
                 transition={{ type: "spring", stiffness: 400 }}
               >
                 <Image
-                  src="/images/Toops_sign 2.png"
+                  src="/images/Logo.png"
                   alt="Toops Coffee Logo"
                   fill
                   className="object-contain"

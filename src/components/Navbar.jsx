@@ -48,7 +48,7 @@ const Navbar = () => {
               className="relative w-12 h-12 md:w-16 md:h-16"
             >
               <Image
-                src="/images/toops_sign 2.png"
+                src="/images/logo.png"
                 alt="Toops Coffee Logo"
                 fill
                 priority
