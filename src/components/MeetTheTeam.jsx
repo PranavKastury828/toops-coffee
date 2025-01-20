@@ -12,24 +12,34 @@ const MeetTheTeam = () => {
       image: "/images/history-1.jpg",
     },
     {
-      name: "Swati Murugan",
+      name: "Revati Rao",
       role: "Operations Manager",
-      image: "/images/history-1.jpg",
+      image: "/images/meet-the-team-1.jpg",
     },
     {
-      name: "Nigina Maskaeva",
+      name: "Sikandar Shaw",
       role: "Sr Barista",
-      image: "/images/history-1.jpg",
+      image: "/images/meet-the-team-2.jpg",
     },
     {
-      name: "Karthik Akram",
+      name: "Chinmayee",
       role: "Chef/Barista",
-      image: "/images/history-1.jpg",
+      image: "/images/meet-the-team-6.jpg",
     },
     {
-      name: "Anoohya K",
-      role: "Jr Barista",
-      image: "/images/history-1.jpg",
+      name: "Sai",
+      role: "Barista",
+      image: "/images/meet-the-team-3.jpg",
+    },
+    {
+      name: "Chandrasekhar",
+      role: "Barista",
+      image: "/images/meet-the-team-4.jpg",
+    },
+    {
+      name: "Clatus",
+      role: "Chef",
+      image: "/images/meet-the-team-5.jpg",
     },
   ];
 
@@ -75,13 +85,13 @@ const MeetTheTeam = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8"
+          className="flex flex-wrap justify-center items-center gap-y-12 gap-x-8 lg:gap-x-0"
         >
           {teamMembers.map((member) => (
             <motion.div
               key={member.name}
               variants={itemAnimation}
-              className="flex flex-col items-center"
+              className="flex flex-col items-center align-center basis-1/4"
             >
               {/* Image Container with Gradient Border */}
               <div className="relative mb-16">

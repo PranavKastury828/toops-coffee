@@ -26,9 +26,10 @@ const Product = () => {
             </h2>
             <div className="space-y-4 font-raleway text-gray-700">
               <p className="text-lg">
-                Our coffees are a part of specialty coffee as we follow the same
-                standards in sourcing, roasting and brewing that the SCA
-                (Specialty Coffee Association) has prescribed.
+                Toops Coffee serves specialty coffee, we are known for a solid coffee
+                that our customers can rely on. We source all our coffees from
+                India, roasted in India and served in India. The coffees are
+                sourced from the coffee belt of India.
               </p>
               <p className="text-lg">
                 We currently serve a 100% Arabica coffee. Roasted in Nagpur,

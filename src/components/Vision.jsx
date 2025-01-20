@@ -45,17 +45,6 @@ const Vision = () => {
                   over coffee. Specialty coffee is unique because it can let
                   anyone and everyone be drawn to spaces that serve it.
                 </motion.p>
-                <motion.p
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.4 }}
-                  className="text-lg"
-                >
-                  There are many opportunities to set up several spaces with
-                  different kinds of products within coffee that bring together
-                  a diverse set of people in alternate setups across the country
-                  and the world.
-                </motion.p>
               </div>
             </motion.div>
 

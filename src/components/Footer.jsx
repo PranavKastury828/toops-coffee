@@ -147,7 +147,7 @@ const Footer = () => {
             <div className="space-y-3 text-center lg:text-left">
               <div className="flex items-center justify-center lg:justify-start space-x-2 text-gray-600">
                 <Clock className="w-4 h-4" />
-                <span className="font-raleway">7 AM - 11 PM Daily</span>
+                <span className="font-raleway">7 AM - 8:30 PM Daily</span>
               </div>
               <address className="flex items-center justify-center lg:justify-start space-x-2 text-gray-600 not-italic">
                 <MapPin className="w-4 h-4 flex-shrink-0" />

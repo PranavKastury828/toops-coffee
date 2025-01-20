@@ -13,12 +13,12 @@ import {
 } from "lucide-react";
 
 const ContactSection = () => {
-    const [mounted, setMounted] = React.useState(false);
+  const [mounted, setMounted] = React.useState(false);
 
-    React.useEffect(() => {
-      setMounted(true);
-      return () => setMounted(false);
-    }, []);
+  React.useEffect(() => {
+    setMounted(true);
+    return () => setMounted(false);
+  }, []);
   return (
     <section className="py-24 bg-white relative overflow-hidden">
       {/* Decorative coffee icons background */}
@@ -136,7 +136,7 @@ const ContactSection = () => {
           className="mt-12 text-center"
         >
           <Link
-            href="https://maps.google.com"
+            href="https://maps.app.goo.gl/wuewJGvHSoS1GZZd7"
             target="_blank"
             className="inline-flex items-center gap-2 bg-[#FA932F] text-white px-8 py-3 rounded-full font-raleway 
                      hover:bg-[#FCAC31] transition-colors shadow-lg hover:shadow-xl"
