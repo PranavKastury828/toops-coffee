@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <motion.nav
-      className="fixed w-full z-50 border-b border-gray-100 overflow-x-hidden"
+      className="fixed w-full z-50 border-b border-gray-100"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       style={{
@@ -38,22 +38,22 @@ const Navbar = () => {
         WebkitBackdropFilter: "blur(12px)",
       }}
     >
-      <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 md:h-20 relative">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="relative w-10 h-10 md:w-16 md:h-16"
+              className="relative w-12 h-12 md:w-16 md:h-16"
             >
               <Image
-                src="/images/logo.png"
+                src="/images/toops_sign 2.png"
                 alt="Toops Coffee Logo"
                 fill
                 priority
                 className="object-contain"
-                sizes="(max-width: 768px) 40px, 64px"
+                sizes="(max-width: 768px) 48px, 64px"
               />
             </motion.div>
           </Link>
@@ -83,7 +83,7 @@ const Navbar = () => {
             ))}
             <Link href="/contact">
               <motion.button
-                className="bg-[#FA932F] text-white px-4 sm:px-6 py-2.5 rounded-lg font-raleway font-medium
+                className="bg-[#FA932F] text-white px-6 py-2.5 rounded-lg font-raleway font-medium
                          transition-all duration-200 hover:bg-[#FCAC31]
                          shadow-[0_2px_10px_-3px_rgba(250,147,47,0.3)]
                          hover:shadow-[0_4px_20px_-3px_rgba(250,147,47,0.4)]"
@@ -146,7 +146,7 @@ const Navbar = () => {
                   </Link>
                 ))}
                 <div className="px-4 py-2">
-                  <Link href="/contact" className="block">
+                  <Link href="/contact">
                     <motion.button
                       className="w-full bg-[#FA932F] text-white px-6 py-2.5 rounded-lg font-raleway 
                                 font-medium transition-all duration-200 hover:bg-[#FCAC31]
