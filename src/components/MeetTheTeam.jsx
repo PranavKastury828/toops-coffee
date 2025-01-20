@@ -94,7 +94,7 @@ const MeetTheTeam = () => {
               className="flex flex-col items-center align-center basis-1/4"
             >
               {/* Image Container with Gradient Border */}
-              <div className="relative mb-16">
+              <div className="relative mb-8">
                 <div className="relative w-48 h-48">
                   {/* Gradient Border Container */}
                   <div
